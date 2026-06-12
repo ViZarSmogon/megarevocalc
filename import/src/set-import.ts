@@ -5,7 +5,7 @@
 import * as fs from 'fs';
 
 import {
-  AbilityName, GenderName, Generation, GenerationNum, Generations, ID, Item, ItemName, MoveName,
+  AbilityName, Generation, GenerationNum, Generations, ID, Item, ItemName, MoveName,
   NatureName, PokemonSet, Specie, SpeciesName, StatID, StatsTable, TypeName,
 } from '@pkmn/data';
 import {Dex as ModdedDex, Item as PSItem, Species as PSSpecie} from '@pkmn/dex';
@@ -16,7 +16,6 @@ interface DexSet {
   moves: MoveName[];
   level?: number;
   ability?: AbilityName[] | AbilityName;
-  gender?: GenderName;
   item?: ItemName[] | ItemName;
   nature?: NatureName[] | NatureName;
   teratypes?: TypeName[] | TypeName;
@@ -182,10 +181,10 @@ function getSpecie(gen: Generation, specieName: SpeciesName): Specie | PSSpecie 
 
 function toPSFormat(formatID: ID): ID {
   if (formatID === 'gen9vgc2025') {
-    return 'gen9vgc2025regi' as ID;
+    return `gen9vgc2025regi` as ID;
   }
   if (formatID === 'gen9battlestadiumsingles') {
-    return 'gen9bssregj' as ID;
+    return 'gen9bssregi' as ID;
   }
   return formatID;
 }
@@ -200,7 +199,7 @@ function dexToPset(
     ability: first(dset.ability) ?? specie.abilities[0],
     moves: dset.moves.map(first),
     nature: first(dset.nature) ?? '',
-    gender: (dset.gender ?? specie.gender) ?? '',
+    gender: '',
     evs: TeamValidator.fillStats(first(dset.evs) ?? null, gen.num < 3 ? 252 : 0),
     ivs: TeamValidator.fillStats(first(dset.ivs) ?? null, gen.num === 2 ? 30 : 31),
     level: first(dset.level) ?? getLevel(formatID),
@@ -343,8 +342,8 @@ function similarFormes(
     similar.abilityChange = true;
     return similar;
   }
-  if (item.megaStone?.[specie.name]) {
-    similar.formes = [item.megaStone[specie.name]];
+  if (specie.name === item.megaEvolves) {
+    similar.formes = [item.megaStone!];
     similar.abilityChange = true;
     return similar;
   }

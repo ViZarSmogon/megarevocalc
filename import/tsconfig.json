@@ -3,10 +3,8 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "dist",
-    "types": ["node"],
     "target": "es6",
-    "ignoreDeprecations": "",
-    "downlevelIteration": true,
+    "resolveJsonModule": true,
     "tsBuildInfoFile": ".tsbuildinfo"
   },
   "exclude": [
