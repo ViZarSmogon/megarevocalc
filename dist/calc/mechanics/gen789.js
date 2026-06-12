@@ -358,10 +358,6 @@ function calculateSMSSSV(gen, attacker, defender, move, field) {
     var fixedDamage = (0, util_2.handleFixedDamageMoves)(attacker, move);
     if (fixedDamage) {
         if (attacker.hasAbility('Parental Bond')) {
-            result.damage = [fixedDamage, fixedDamage];
-            desc.attackerAbility = attacker.ability;
-        }
-        else {
             result.damage = fixedDamage;
         }
         return result;

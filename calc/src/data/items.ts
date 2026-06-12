@@ -470,61 +470,8 @@ SS.push('Utility Umbrella', 'Vile Vial');
 // Because we support National Dex all Past items are added back in
 SS.push(...GSC_ONLY, 'Old Amber');
 
-const ZA_MEGA_STONES: {[species: string]: string} = {
-  Barbaracite: 'Barbaracle',
-  Chandelurite: 'Chandelure',
-  Chesnaughtite: 'Chesnaught',
-  Clefablite: 'Clefable',
-  Delphoxite: 'Delphox',
-  Dragalgite: 'Dragalge',
-  Dragoninite: 'Dragonite',
-  Drampanite: 'Drampa',
-  Eelektrossite: 'Eelektross',
-  Emboarite: 'Emboar',
-  Excadrite: 'Excadrill',
-  Falinksite: 'Falinks',
-  Feraligite: 'Feraligatr',
-  Floettite: 'Floette',
-  Froslassite: 'Froslass',
-  Greninjite: 'Greninja',
-  Hawluchanite: 'Hawlucha',
-  Malmarite: 'Malamar',
-  Meganiumite: 'Meganium',
-  Pyroarite: 'Pyroar',
-  Scolipite: 'Scolipede',
-  Scraftinite: 'Scrafty',
-  Skarmorite: 'Skarmory',
-  Starminite: 'Starmie',
-  Victreebelite: 'Victreebel',
-  Zygardite: 'Zygarde',
-};
-
-const ZA_DLC_MEGA_STONES: {[species: string]: string} = {
-  'Absolite Z': 'Absol',
-  Baxcalibrite: 'Baxcalibur',
-  Chimechite: 'Chimecho',
-  Crabominite: 'Crabominable',
-  Darkranite: 'Darkrai',
-  'Garchompite Z': 'Garchomp',
-  Glimmoranite: 'Glimmora',
-  Golisopite: 'Golisopod',
-  Golurkite: 'Golurk',
-  Heatranite: 'Heatran',
-  'Lucarionite Z': 'Lucario',
-  Magearnite: 'Magearna',
-  Meowsticite: 'Meowstic',
-  'Raichunite X': 'Raichu',
-  'Raichunite Y': 'Raichu',
-  Scovillainite: 'Scovillain',
-  Staraptite: 'Staraptor',
-  Tatsugirinite: 'Tatsugiri',
-  Zeraorite: 'Zeraora',
-};
-
 const SV = SS.concat(
   [
-    ...Object.keys(ZA_MEGA_STONES),
-	...Object.keys(ZA_DLC_MEGA_STONES),
     'Adamant Crystal',
     'Auspicious Armor',
     'Ability Shield',
@@ -629,7 +576,7 @@ const BERRIES: {[berry: string]: {t: I.TypeName; p: number}} = {
   'Yache Berry': {t: 'Ice', p: 80},
 };
 
-export const MEGA_STONES = Object.assign({}, GEN_6_MEGA_STONES, ZA_MEGA_STONES);
+export const MEGA_STONES = Object.assign({}, GEN_6_MEGA_STONES);
 
 export const ITEMS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
 
