@@ -10228,6 +10228,24 @@ const MegaRev_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     weightkg: 77,
     abilities: {0: 'Adaptability'},
   },
+  Stardem: {
+    types: ['Water', 'Electric'],
+    bs: {hp: 75, at: 60, df: 80, sa: 110, sd: 115, sp: 70},
+    weightkg: 77,
+    abilities: {0: 'Huge Power'},
+  },
+  Devouress: {
+    types: ['Steel', 'Fairy'],
+    bs: {hp: 75, at: 55, df: 120, sa: 85, sd: 75, sp: 50},
+    weightkg: 77,
+    abilities: {0: 'Huge Power'},
+  },
+  Medirvana: {
+    types: ['Fighting', 'Psychic'],
+    bs: {hp: 90, at: 70, df: 75, sa: 70, sd: 85, sp: 90},
+    weightkg: 77,
+    abilities: {0: 'Huge Power'},
+  },
 };
 
 const SV: {[name: string]: SpeciesData} = extend(true, {}, SS, SV_PATCH, PLA_PATCH, MegaRev_PATCH);
