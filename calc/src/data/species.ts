@@ -10091,6 +10091,9 @@ const MegaRev_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Houndoom: {nfe: true},
   Manectric: {nfe: true},
   Absol: {nfe: true},
+  Clefable: {otherFormes: ['Clefable-Hisui']},
+  Skarmory: {otherFormes: ['Skarmory-Sharpened']},
+  Hawlucha: {nfe: true},
   
   Junglosaur: {
     types: ['Grass', 'Poison'],
@@ -10266,6 +10269,24 @@ const MegaRev_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     bs: {hp: 85, at: 140, df: 75, sa: 75, sd: 75, sp: 95},
     weightkg: 49,
     abilities: {0: 'Magic Bounce'},
+  },
+  "Clefable-Hisui": {
+    types: ['Fairy', 'Flying'],
+    bs: {hp: 75, at: 90, df: 63, sa: 105, sd: 70, sp: 80},
+    weightkg: 42.3,
+    abilities: {0: 'Magic Bounce'},
+  },
+  "Skarmory-Sharpened": {
+    types: ['Steel', 'Flying'],
+    bs: {hp: 65, at: 110, df: 140, sa: 40, sd: 75, sp: 90},
+    weightkg: 40.4,
+    abilities: {0: 'Sharpness'},
+  },
+  Libreagle: {
+    types: ['Fighting', 'Flying'],
+    bs: {hp: 96, at: 104, df: 96, sa: 78, sd: 72, sp: 104},
+    weightkg: 25,
+    abilities: {0: 'Wind Rider'},
   },
 };
 
