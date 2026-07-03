@@ -10107,6 +10107,9 @@ var MegaRev_PATCH = {
     Clefable: { otherFormes: ['Clefable-Hisui'] },
     Skarmory: { otherFormes: ['Skarmory-Sharpened'] },
     Hawlucha: { nfe: true },
+    Slowbro: { otherFormes: ['Slowbro-Galar', 'Slowbro-Sheltered'] },
+    Gardevoir: { nfe: true },
+    Gallade: { nfe: true },
     Junglosaur: {
         types: ['Grass', 'Poison'],
         bs: { hp: 100, at: 102, df: 98, sa: 122, sd: 113, sp: 40 },
@@ -10286,19 +10289,46 @@ var MegaRev_PATCH = {
         types: ['Fairy', 'Flying'],
         bs: { hp: 75, at: 90, df: 63, sa: 105, sd: 70, sp: 80 },
         weightkg: 42.3,
-        abilities: { 0: 'Magic Bounce' }
+        abilities: { 0: 'Magic Bounce' },
+        baseSpecies: 'Clefable'
     },
     "Skarmory-Sharpened": {
         types: ['Steel', 'Flying'],
         bs: { hp: 65, at: 110, df: 140, sa: 40, sd: 75, sp: 90 },
         weightkg: 40.4,
-        abilities: { 0: 'Sharpness' }
+        abilities: { 0: 'Sharpness' },
+        baseSpecies: 'Skarmory'
     },
     Libreagle: {
         types: ['Fighting', 'Flying'],
         bs: { hp: 96, at: 104, df: 96, sa: 78, sd: 72, sp: 104 },
         weightkg: 25,
         abilities: { 0: 'Wind Rider' }
+    },
+    Shazakazam: {
+        types: ['Psychic', 'Steel'],
+        bs: { hp: 50, at: 40, df: 55, sa: 130, sd: 115, sp: 110 },
+        weightkg: 48,
+        abilities: { 0: 'Magic Guard' }
+    },
+    'Slowbro-Sheltered': {
+        types: ['Water', 'Psychic'],
+        bs: { hp: 95, at: 75, df: 130, sa: 115, sd: 95, sp: 30 },
+        weightkg: 120,
+        abilities: { 0: 'Unaware' },
+        baseSpecies: 'Slowbro'
+    },
+    Druidevoir: {
+        types: ['Psychic', 'Fairy'],
+        bs: { hp: 73, at: 65, df: 65, sa: 145, sd: 120, sp: 90 },
+        weightkg: 48.4,
+        abilities: { 0: 'Pixilate' }
+    },
+    Valianoble: {
+        types: ['Psychic', 'Fighting'],
+        bs: { hp: 83, at: 125, df: 80, sa: 65, sd: 120, sp: 85 },
+        weightkg: 56.4,
+        abilities: { 0: 'Sharpness' }
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH, MegaRev_PATCH);
