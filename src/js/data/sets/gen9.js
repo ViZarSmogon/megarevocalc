@@ -430,9 +430,9 @@ var SETDEX_SV = {
     "National Dex RU Offensive": {"ability":"Analytic","item":"Life Orb","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Hydro Pump","Ice Beam","Thunderbolt","Rapid Spin"]},
     "National Dex RU Defensive": {"ability":"Natural Cure","item":"Heavy-Duty Boots","nature":"Timid","evs":{"hp":252,"sa":4,"sp":252},"moves":["Scald","Recover","Teleport","Rapid Spin"]}
   },
-  "Starmie-Mega": {
-    "Legends Z-A Bulk Up": {"ability":"Pure Power","item":"Starminite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Liquidation","Zen Headbutt","Frustration","Bulk Up"]},
-    "Legends Z-A Offensive": {"ability":"Pure Power","item":"Starminite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Liquidation","Zen Headbutt","Flip Turn","Rapid Spin"]}
+  "Stardem": {
+    "Mega Revolution Bulky Spinner": {"ability":"Huge Power","item":"Heavy-Duty Boots","nature":"Impish","evs":{"hp":248,"df":164,"sp":96},"moves":["Waterfall","Flip Turn","Rapid Spin","Recover"]},
+    "Mega Revolution Choice Band": {"ability":"Huge Power","item":"Choice Band","nature":"Adamant","evs":{"hp":252,"sd":4,"sp":252},"moves":["Wave Crash","Flip Turn","Zing Zap","High Jump Kick"]},
   },
   "Scyther": {
     "NU Swords Dance": {"ability":"Technician","item":"Eviolite","nature":"Jolly","teraType":"Electric","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Dual Wingbeat","Close Combat","Trailblaze"]},
@@ -916,8 +916,9 @@ var SETDEX_SV = {
     "National Dex RU Nasty Plot": {"ability":"Flash Fire","item":"Houndoominite","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Nasty Plot","Dark Pulse","Fire Blast","Sludge Bomb"]},
     "ZU Showdown Usage": {"ability":"Flash Fire","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Ghost","evs":{"sa":252,"sd":4,"sp":252},"moves":["Dark Pulse","Nasty Plot","Flamethrower","Sludge Bomb"]}
   },
-  "Houndoom-Mega": {
-    "National Dex RU Nasty Plot": {"ability":"Solar Power","item":"Houndoominite","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Nasty Plot","Dark Pulse","Fire Blast","Sludge Bomb"]}
+  "Houndemise": {
+    "Mega Revolution Sun Choice Specs": {"ability":"Solar Power","item":"Choice Specs","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Overheat","Dark Pulse","Fire Blast","Parting Shot"]},
+    "Mega Revolution Special Attacker": {"ability":"Competitive","item":"Heavy-Duty Boots","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Scorching Sands","Dark Pulse","Fire Blast","Parting Shot"]},
   },
   "Kingdra": {
     "RU Rain Sweeper": {"ability":"Swift Swim","item":"Choice Specs","nature":"Modest","teraType":"Water","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Hydro Pump","Draco Meteor","Hurricane","Dragon Pulse"]},
@@ -1205,10 +1206,9 @@ var SETDEX_SV = {
     "National Dex All-Out Attacker": {"ability":"Huge Power","item":"Mawilite","nature":"Adamant","evs":{"hp":52,"at":252,"sp":204},"moves":["Play Rough","Ice Punch","Thunder Punch","Fire Fang"]},
     "National Dex Doubles Showdown Usage": {"ability":"Hyper Cutter","item":"Mawilite","nature":"Brave","teraType":"Steel","evs":{"hp":252,"at":252,"sd":4},"moves":["Play Rough","Iron Head","Sucker Punch","Protect"]}
   },
-  "Mawile-Mega": {
-    "National Dex Swords Dance": {"ability":"Huge Power","item":"Mawilite","nature":"Adamant","evs":{"hp":116,"at":252,"sp":140},"moves":["Swords Dance","Play Rough","Knock Off","Sucker Punch"]},
-    "National Dex All-Out Attacker": {"ability":"Huge Power","item":"Mawilite","nature":"Adamant","evs":{"hp":52,"at":252,"sp":204},"moves":["Play Rough","Ice Punch","Thunder Punch","Fire Fang"]},
-    "National Dex Doubles Showdown Usage": {"ability":"Huge Power","item":"Mawilite","nature":"Brave","teraType":"Steel","evs":{"hp":252,"at":252,"sd":4},"moves":["Play Rough","Iron Head","Sucker Punch","Protect"]}
+  "Devouress": {
+    "Mega Revolution Swords Dance": {"ability":"Huge Power","item":"Life Orb","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Swords Dance","Play Rough","Iron Head","Sucker Punch"]},
+    "Mega Revolution Choice Band": {"ability":"Huge Power","item":"Choice Band","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Play Rough","Ice Punch","Iron Head","Knock Off"]},
   },
   "Aggron": {
     "National Dex RU Tank": {"ability":"Sturdy","item":"Aggronite","nature":"Careful","evs":{"hp":252,"df":4,"sd":252},"moves":["Stealth Rock","Heavy Slam","Body Press","Toxic"]},
@@ -1231,16 +1231,16 @@ var SETDEX_SV = {
     "ZU All-Out Attacker": {"ability":"Pure Power","item":"Life Orb","nature":"Jolly","teraType":"Fighting","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Zen Headbutt","Trailblaze","Ice Punch"]},
     "PU Showdown Usage": {"ability":"Pure Power","item":"Choice Scarf","nature":"Adamant","teraType":"Steel","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Zen Headbutt","Bullet Punch","Thunder Punch"]}
   },
-  "Medicham-Mega": {
-    "National Dex All-Out Attacker": {"ability":"Pure Power","item":"Medichamite","nature":"Jolly","evs":{"at":252,"df":4,"sp":252},"moves":["Fake Out","Close Combat","Zen Headbutt","Ice Punch"]}
+  "Medirvana": {
+    "Mega Revolution Choice Band": {"ability":"Pure Power","item":"Choice Band","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Mach Punch","Close Combat","Zen Headbutt","Thunder Punch"]},
+    "Mega Revolution Bulk Up": {"ability":"Pure Power","item":"Fightinium Z","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Mach Punch","Close Combat","Zen Headbutt","Bulk Up"]},
   },
   "Manectric": {
     "National Dex RU Offensive Pivot": {"ability":"Lightning Rod","item":"Manectite","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Volt Switch","Thunderbolt","Overheat","Hidden Power Ice"]},
     "National Dex UU Showdown Usage": {"ability":"Static","item":"Manectite","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Volt Switch","Thunderbolt","Hidden Power Ice","Overheat"]}
   },
   "Manectric-Mega": {
-    "National Dex RU Offensive Pivot": {"ability":"Intimidate","item":"Manectite","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Volt Switch","Thunderbolt","Overheat","Hidden Power Ice"]},
-    "National Dex UU Showdown Usage": {"ability":"Intimidate","item":"Manectite","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Volt Switch","Thunderbolt","Hidden Power Ice","Overheat"]}
+    "Mega Revolution Offensive Pivot": {"ability":"Intimidate","item":"Heavy-Duty Boots","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Volt Switch","Thunderbolt","Flamethrower","Hidden Power Ice"]},
   },
   "Volbeat": {
     "ZU Defensive Pivot": {"ability":"Prankster","item":"Heavy-Duty Boots","nature":"Sassy","teraType":"Dragon","ivs":{"sp":0},"evs":{"hp":252,"df":4,"sd":252},"moves":["Encore","Thunder Wave","Roost","U-turn"]}
@@ -1329,9 +1329,9 @@ var SETDEX_SV = {
     "National Dex RU Offensive": {"ability":"Magic Bounce","item":"Absolite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Knock Off","Pursuit","Close Combat","Sucker Punch"]},
     "National Dex RU Swords Dance": {"ability":"Magic Bounce","item":"Absolite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Knock Off","Close Combat","Sucker Punch"]}
   },
-  "Absol-Mega": {
-    "National Dex RU Offensive": {"ability":"Magic Bounce","item":"Absolite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Knock Off","Pursuit","Close Combat","Sucker Punch"]},
-    "National Dex RU Swords Dance": {"ability":"Magic Bounce","item":"Absolite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Knock Off","Close Combat","Sucker Punch"]}
+  "Abresol": {
+    "Mega Revolution Swords Dance": {"ability":"Justified","item":"Fairium Z","nature":"Adamant","evs":{"at":252,"sd":4,"sp":252},"moves":["Knock Off","Play Rough","Swords Dance","Sucker Punch"]},
+    "Mega Revolution Choice Band": {"ability":"Magic Bounce","item":"Choice Band","nature":"Adamant","evs":{"at":252,"sd":4,"sp":252},"moves":["Knock Off","Play Rough","Close Combat","Sucker Punch"]},
   },
   "Glalie": {
     "National Dex RU Showdown Usage": {"ability":"Inner Focus","item":"Glalitite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Spikes","Earthquake","Explosion","Return"]}
