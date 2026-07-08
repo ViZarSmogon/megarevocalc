@@ -18,11 +18,10 @@ var SETDEX_SV = {
     "1v1 Custap Berry": {"ability":"Overgrow","item":"Custap Berry","nature":"Modest","evs":{"sa":252,"sd":4,"sp":252},"moves":["Frenzy Plant","Sludge Bomb","Earth Power","Endure"]},
     "National Dex Doubles Showdown Usage": {"ability":"Chlorophyll","item":"Covert Cloak","nature":"Timid","teraType":"Water","evs":{"hp":4,"sa":252,"sp":252},"moves":["Sludge Bomb","Protect","Sleep Powder","Grass Pledge"]}
   },
-  "Venusaur-Mega": {
-    "National Dex Tank": {"ability":"Thick Fat","item":"Venusaurite","nature":"Modest","ivs":{"at":0},"evs":{"hp":252,"sa":156,"sp":100},"moves":["Giga Drain","Sludge Bomb","Earth Power","Synthesis"]},
-    "National Dex UU Tank": {"ability":"Thick Fat","item":"Venusaurite","nature":"Modest","ivs":{"at":0},"evs":{"hp":252,"sa":152,"sp":104},"moves":["Sludge Bomb","Knock Off","Earth Power","Synthesis"]},
-    "National Dex Monotype Physically Defensive (Grass)": {"ability":"Thick Fat","item":"Venusaurite","nature":"Bold","evs":{"hp":248,"df":244,"sp":16},"moves":["Sludge Bomb","Synthesis","Hidden Power Fire","Leech Seed"]},
-    "National Dex Monotype Physically Defensive (Poison)": {"ability":"Thick Fat","item":"Venusaurite","nature":"Bold","ivs":{"at":0},"evs":{"hp":248,"df":244,"sp":16},"moves":["Giga Drain","Hidden Power Fire","Leech Seed","Synthesis"]}
+  "Junglosaur": {
+    "Mega Revolution 3 Attacks + Utility": {"ability":"Thick Fat","item":"Black Sludge","nature":"Modest","ivs":{"at":0},"evs":{"hp":240,"sa":244,"sp":24},"moves":["Giga Drain","Sludge Bomb","Earth Power","Leech Seed"]},
+    "Mega Revolution Bulky Calm Mind": {"ability":"Thick Fat","item":"Black Sludge","nature":"Bold","ivs":{"at":0},"evs":{"hp":248,"df":236,"sp":24},"moves":["Giga Drain","Sludge Bomb","Hidden Power Fire","Calm Mind"]},
+    "Mega Revolution Specially Defensive": {"ability":"Thick Fat","item":"Black Sludge","nature":"Bold","ivs":{"at":0},"evs":{"hp":248,"sd":236,"sp":24},"moves":["Hidden Power Fire","Sludge Bomb","Knock Off","Leech Seed"]},
   },
   "Charmander": {
     "LC Sun Wallbreaker": {"level":5,"ability":"Solar Power","item":"Choice Scarf","nature":"Timid","teraType":"Fire","evs":{"hp":44,"df":12,"sa":196,"sp":236},"moves":["Weather Ball","Fire Blast","Overheat","Sleep Talk"]}
@@ -40,14 +39,15 @@ var SETDEX_SV = {
     "ZU Belly Drum": {"ability":"Blaze","item":"Sitrus Berry","nature":"Jolly","teraType":"Flying","evs":{"hp":4,"at":252,"sp":252},"moves":["Belly Drum","Acrobatics","Earthquake","Flame Charge"]},
     "National Dex Doubles Sun Attacker": {"ability":"Drought","item":"Charizardite Y","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Heat Wave","Solar Beam","Tailwind","Protect"]}
   },
-  "Charizard-Mega-Y": {
-    "National Dex Drought Wallbreaker": {"ability":"Drought","item":"Charizardite Y","nature":"Timid","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Weather Ball","Solar Beam","Scorching Sands","Roost"]},
-    "National Dex Monotype Sun Wallbreaker (Flying)": {"ability":"Drought","item":"Charizardite Y","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Flamethrower","Solar Beam","Focus Blast","Roost"]},
-    "National Dex Doubles Sun Attacker": {"ability":"Drought","item":"Charizardite Y","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Heat Wave","Solar Beam","Tailwind","Protect"]}
+  "Scorchyvern": {
+    "Mega Revolution Defensive Stealth Rocks": {"ability":"Drought","item":"Heavy-Duty Boots","nature":"Impish","evs":{"hp":252,"df":176,"sp":80},"moves":["Earthquake","Will-O-Wisp","Stealth Rock","Morning Sun"]},
+    "Mega Revolution Bulky Dragon Dance": {"ability":"Drought","item":"Leftovers","nature":"Adamant","evs":{"hp":252,"df":136,"sp":120},"moves":["Earthquake","Flare Blitz","Dragon Dance","Morning Sun"]},
   },
-  "Charizard-Mega-X": {
-    "National Dex Setup Sweeper": {"ability":"Tough Claws","item":"Charizardite X","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Dragon Dance","Flare Blitz","Earthquake","Dragon Claw"]},
-    "National Dex Monotype Dragon Dance (Fire)": {"ability":"Tough Claws","item":"Charizardite X","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Dragon Dance","Flare Blitz","Dragon Claw","Earthquake"]}
+  "Dracandescend": {
+    "Mega Revolution Dragon Dance Sweeper": {"ability":"Tough Claws","item":"Dragonium Z","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Dragon Dance","Flare Blitz","Earthquake","Outrage"]},
+    "Mega Revolution Swords Dance Sweeper": {"ability":"Tough Claws","item":"Firium Z","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Flare Blitz","Earthquake","Scale Shot"]},
+    "Mega Revolution Bulky Dragon Dance": {"ability":"Tough Claws","item":"Heavy-Duty Boots","nature":"Jolly","evs":{"hp":252,"df":196,"sp":60},"moves":["Dragon Dance","Fire Lash","Roost","Dragon Claw"]},
+    "Mega Revolution Offensive Pivot": {"ability":"Tough Claws","item":"Heavy-Duty Boots","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["U-turn","Fire Lash","Knock Off","Dragon Claw"]},
   },
   "Wartortle": {
     "NFE Shell Smash": {"ability":"Torrent","item":"Eviolite","nature":"Modest","evs":{"hp":176,"sa":252,"sp":80},"moves":["Shell Smash","Surf","Ice Beam","Substitute"]}
@@ -57,25 +57,27 @@ var SETDEX_SV = {
     "National Dex RU Showdown Usage": {"ability":"Torrent","item":"Normalium Z","nature":"Modest","evs":{"hp":4,"sa":252,"sp":252},"moves":["Shell Smash","Ice Beam","Hydro Pump","Hyper Beam"]},
     "Almost Any Ability Showdown Usage": {"ability":"No Guard","item":"White Herb","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Shell Smash","Hydro Pump","Focus Blast","Blizzard"]}
   },
+  "Blastoise-Mega": {
+    "Mega Revolution Rapid Spin": {"ability":"Torrent","item":"Leftovers","nature":"Modest","evs":{"hp":216,"sa":252,"sp":40},"moves":["Water Pulse","Dark Aura","Aura Sphere","Rapid Spin"]},
+    "Mega Revolution Choice Specs": {"ability":"Torrent","item":"Choice Specs","nature":"Modest","evs":{"hp":216,"sa":252,"sp": 40},"moves":["Hydro Pump","Dark Aura","Aura Sphere","Flip Turn"]},
+  },
   "Beedrill": {
     "National Dex UU Please Don't Use Mega Beedrill": {"ability":"Adaptability","item":"Beedrillite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["U-turn","Poison Jab","Drill Run","Knock Off"]},
     "National Dex Showdown Usage": {"ability":"Swarm","item":"Beedrillite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Poison Jab","U-turn","Drill Run","Knock Off"]},
     "National Dex Monotype Showdown Usage": {"ability":"Swarm","item":"Beedrillite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Poison Jab","U-turn","Drill Run","Knock Off"]}
   },
-  "Beedrill-Mega": {
-    "National Dex UU Please Don't Use Mega Beedrill": {"ability":"Adaptability","item":"Beedrillite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["U-turn","Poison Jab","Drill Run","Knock Off"]},
-    "National Dex Showdown Usage": {"ability":"Adaptability","item":"Beedrillite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Poison Jab","U-turn","Drill Run","Knock Off"]},
-    "National Dex Monotype Showdown Usage": {"ability":"Adaptability","item":"Beedrillite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Poison Jab","U-turn","Drill Run","Knock Off"]},
-    "Balanced Hackmons Showdown Usage": {"ability":"Sheer Force","item":"Choice Band","nature":"Jolly","evs":{"hp":252,"at":252,"df":252,"sd":252,"sp":252},"moves":["Noxious Torque","U-turn","Bolt Strike","Mountain Gale"]}
+  "Beewark": {
+    "Mega Revolution Physically Defensive": {"ability":"Thick Fat","item":"Rocky Helmet","nature":"Impish","evs":{"hp":248,"def":204,"sp":56},"moves":["U-turn","Earthquake","Roost","Toxic"]},
+    "Mega Revolution Choice Band": {"ability":"Adaptability","item":"Choice Band","nature":"Adamant","evs":{"at":252,"sd":4,"sp":252},"moves":["Megahorn","U-turn","Earthquake","Knock Off"]},
   },
   "Pidgeot": {
     "National Dex RU Offensive Pivot": {"ability":"Big Pecks","item":"Pidgeotite","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["U-turn","Hurricane","Heat Wave","Roost"]},
     "National Dex Monotype Bird Jesus (Normal)": {"ability":"Tangled Feet","item":"Pidgeotite","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Hurricane","Heat Wave","Roost","Toxic"]}
   },
-  "Pidgeot-Mega": {
-    "National Dex RU Offensive Pivot": {"ability":"No Guard","item":"Pidgeotite","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["U-turn","Hurricane","Heat Wave","Roost"]},
-    "National Dex Monotype Bird Jesus (Normal)": {"ability":"No Guard","item":"Pidgeotite","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Hurricane","Heat Wave","Roost","Toxic"]},
-    "Balanced Hackmons Showdown Usage": {"ability":"Unburden","item":"Throat Spray","nature":"Modest","evs":{"hp":252,"df":252,"sa":252,"sd":252,"sp":252},"moves":["Boomburst","Torch Song","Electro Drift","Aeroblast"]}
+  "Pidgeaether": {
+    "Mega Revolution Choice Specs": {"ability":"No Guard","item":"Choice Specs","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["U-turn","Hurricane","Focus Blast","Thunder"]},
+    "Mega Revolution Calm Mind": {"ability":"No Guard","item":"Heavy-Duty Boots","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Calm Mind","Hurricane","Focus Blast","Roost"]},
+    "Mega Revolution Swords Dance": {"ability":"Wind Rider","item":"Life Orb","nature":"Adamant","evs":{"hp":72,"at":252,"df":4,"sp":180},"moves":["Brave Bird","Extreme Speed","Swords Dance","Roost"]},
   },
   "Pikachu": {
     "Balanced Hackmons Imposter": {"ability":"Imposter","item":"Light Ball","nature":"Modest","ivs":{"at":0},"evs":{"hp":252,"df":252,"sa":252,"sd":252,"sp":252},"moves":["Volt Switch","Jungle Healing","Glare","Healing Wish"]},
@@ -84,6 +86,15 @@ var SETDEX_SV = {
   "Raichu-Alola": {
     "National Dex Monotype Surge Surfer (Electric)": {"ability":"Surge Surfer","item":"Psychium Z","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Nasty Plot","Psychic","Rising Voltage","Grass Knot"]},
     "ZU Nasty Plot": {"ability":"Surge Surfer","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Fairy","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Nasty Plot","Psyshock","Surf","Volt Switch"]}
+  },
+  "Gorochu": {
+    "Mega Revolution Utility Pivot": {"ability":"Levitate","item":"Heavy-Duty Boots","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Fire Lash","Nuzzle","Knock Off","Volt Switch"]},
+    "Mega Revolution Choice Band": {"ability":"Electric Surge","item":"Choice Band","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Flare Blitz","Volt Tackle","Knock Off","Extreme Speed"]},
+  },
+  "Pikaraichu": {
+    "Mega Revolution Choice Specs": {"ability":"No Guard","item":"Choice Specs","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Zap Cannon","Focus Blast","Volt Switch","Surf"]},
+    "Mega Revolution Nasty Plot": {"ability":"No Guard","item":"Life Orb","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Zap Cannon","Focus Blast","Nasty Plot","Surf"]},
+    "Mega Revolution Utility Pivot": {"ability":"No Guard","item":"Heavy-Duty Boots","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Zap Cannon","Focus Blast","Volt Switch","Knock Off"]},
   },
   "Sandshrew": {
     "LC Sand Sweeper": {"level":5,"ability":"Sand Rush","item":"Eviolite","nature":"Adamant","teraType":"Bug","evs":{"at":236,"df":76,"sp":196},"moves":["Swords Dance","Earthquake","Leech Life","Rapid Spin"]}
