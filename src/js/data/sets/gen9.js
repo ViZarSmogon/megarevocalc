@@ -352,6 +352,9 @@ var SETDEX_SV = {
     "Almost Any Ability Normalize": {"ability":"Normalize","item":"Black Sludge","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Skill Swap","Mean Look","Shadow Ball","Toxic Spikes"]},
     "UU Showdown Usage": {"ability":"Cursed Body","item":"Focus Sash","nature":"Timid","teraType":"Poison","evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Sludge Wave","Focus Blast","Nasty Plot"]}
   },
+  "Strechterror": {
+    "Mega Revolution Choice Band": {"ability":"Long Reach","item":"Choice Band","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Poltergeist","Mighty Cleave","Knock Off","Trick"]},
+  },
   "Electrode-Hisui": {
     "PU Pivot": {"ability":"Aftermath","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Volt Switch","Thunderbolt","Leaf Storm","Taunt"]},
     "Almost Any Ability Offensive Pivot": {"ability":"Magic Guard","item":"Life Orb","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Chloroblast","Volt Switch","Thunderbolt","Thunder Wave"]},
@@ -415,9 +418,10 @@ var SETDEX_SV = {
     "National Dex Doubles Seismic Toss": {"ability":"Scrappy","item":"Kangaskhanite","nature":"Impish","teraType":"Normal","evs":{"hp":248,"df":216,"sp":44},"moves":["Fake Out","Seismic Toss","Sucker Punch","Protect"]},
     "National Dex Doubles Setup Attacker": {"ability":"Scrappy","item":"Kangaskhanite","nature":"Jolly","teraType":"Normal","evs":{"at":252,"df":4,"sp":252},"moves":["Fake Out","Return","Sucker Punch","Power-Up Punch"]}
   },
-  "Kangaskhan-Mega": {
-    "National Dex Doubles Seismic Toss": {"ability":"Parental Bond","item":"Kangaskhanite","nature":"Impish","teraType":"Normal","evs":{"hp":248,"df":216,"sp":44},"moves":["Fake Out","Seismic Toss","Sucker Punch","Protect"]},
-    "National Dex Doubles Setup Attacker": {"ability":"Parental Bond","item":"Kangaskhanite","nature":"Jolly","teraType":"Normal","evs":{"at":252,"df":4,"sp":252},"moves":["Fake Out","Return","Sucker Punch","Power-Up Punch"]}
+  "Kangesa": {
+    "Mega Revolution Specially Defensive": {"ability":"Thick Fat","item":"Leftovers","nature":"Careful","evs":{"hp":252,"sd":120,"sp":136},"moves":["Earthquake","Knock Off","Milk Drink","Stealth Rock"]},
+    "Mega Revolution Curse": {"ability":"Scrappy","item":"Leftovers","nature":"Careful","evs":{"hp":252,"df":4,"sd":252},"moves":["Frustration","Curse","Milk Drink","Substitute"]},
+    "Mega Revolution All-Out Attacker": {"ability":"Parental Bond","item":"Life Orb","nature":"Adamant","evs":{"hp":120,"at":252,"sp":136},"moves":["Body Slam","High Horsepower","Power-Up Punch","Sucker Punch"]},
   },
   "Seadra": {
     "NFE RestTalk Pivot": {"ability":"Poison Point","item":"Eviolite","nature":"Bold","evs":{"hp":252,"df":240,"sp":16},"moves":["Rest","Sleep Talk","Flip Turn","Surf"]}
@@ -680,6 +684,12 @@ var SETDEX_SV = {
   },
   "Lanturn": {
     "ZU Defensive Pivot": {"ability":"Volt Absorb","item":"Heavy-Duty Boots","nature":"Calm","teraType":"Dragon","evs":{"hp":252,"df":4,"sd":252},"moves":["Volt Switch","Scald","Rest","Sleep Talk"]}
+  },
+  "Ampharos": {
+    "National Dex RU Showdown Usage": {"ability":"Static","item":"Ampharosite","nature":"Quiet","evs":{"hp":248,"sa":252,"sd":8},"moves":["Dragon Pulse","Thunderbolt","Charge Beam","Focus Blast"]}
+  },
+  "Wooluster": {
+    "Mega Revolution Tail Glow": {"ability":"Mold Breaker","item":"Dragonium Z","nature":"Modest","evs":{"hp":176,"sa":232,"sp":100},"moves":["Draco Meteor","Thunderbolt","Tail Glow","Substitute"]},
   },
   "Azumarill": {
     "UU Belly Drum": {"ability":"Huge Power","item":"Sitrus Berry","nature":"Adamant","teraType":"Steel","evs":{"hp":4,"at":252,"sp":252},"moves":["Belly Drum","Play Rough","Liquidation","Aqua Jet"]},
@@ -1285,9 +1295,9 @@ var SETDEX_SV = {
     "National Dex Monotype Offensive Dragon Dance (Dragon)": {"ability":"Natural Cure","item":"Altarianite","nature":"Jolly","evs":{"hp":16,"at":224,"df":16,"sp":252},"moves":["Return","Earthquake","Dragon Dance","Roost"]},
     "National Dex UU Showdown Usage": {"ability":"Natural Cure","item":"Altarianite","nature":"Adamant","evs":{"at":252,"sd":4,"sp":252},"moves":["Roost","Earthquake","Dragon Dance","Return"]}
   },
-  "Altaria-Mega": {
-    "National Dex Monotype Offensive Dragon Dance (Dragon)": {"ability":"Pixilate","item":"Altarianite","nature":"Jolly","evs":{"hp":16,"at":224,"df":16,"sp":252},"moves":["Return","Earthquake","Dragon Dance","Roost"]},
-    "National Dex UU Showdown Usage": {"ability":"Pixilate","item":"Altarianite","nature":"Adamant","evs":{"at":252,"sd":4,"sp":252},"moves":["Roost","Earthquake","Dragon Dance","Return"]}
+  "Asperitazul": {
+    "Mega Revolution Physically Defensive": {"ability":"Pixilate","item":"Heavy-Duty Boots","nature":"Bold","evs":{"hp":248,"df":164,"sp":96},"moves":["Hyper Voice","Will-O-Wisp","Defog","Roost"]},
+    "Mega Revolution Bulky Dragon Dance": {"ability":"Pixilate","item":"Leftovers","nature":"Impish","evs":{"hp":248,"df":164,"sp":96},"moves":["Frustration","Refresh","Dragon Dance","Roost"]},
   },
   "Whiscash": {
     "ZU Wall": {"ability":"Oblivious","item":"Heavy-Duty Boots","nature":"Sassy","teraType":"Dragon","evs":{"hp":248,"df":8,"sd":252},"moves":["Stealth Rock","Earth Power","Stone Edge","Surf"]}
@@ -1612,14 +1622,10 @@ var SETDEX_SV = {
     "National Dex Monotype Wallbreaker (Normal)": {"ability":"Limber","item":"Lopunnite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Power-Up Punch","Encore","Return","Close Combat"]},
     "National Dex Doubles Showdown Usage": {"ability":"Cute Charm","item":"Lopunnite","nature":"Jolly","teraType":"Normal","evs":{"at":252,"sd":4,"sp":252},"moves":["Fake Out","Close Combat","Quick Attack","Return"]}
   },
-  "Lopunny-Mega": {
-    "Legends Z-A Offensive": {"ability":"Scrappy","item":"Lopunnite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Frustration","Close Combat","Fake Out","U-turn"]},
-    "Legends Z-A Swords Dance": {"ability":"Scrappy","item":"Lopunnite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Frustration","Close Combat","Triple Axel","Swords Dance"]},
-    "National Dex Offensive": {"ability":"Scrappy","item":"Lopunnite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Frustration","Close Combat","Fake Out","U-turn"]},
-    "National Dex Monotype All-Out Attacker": {"ability":"Scrappy","item":"Lopunnite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Fake Out","Close Combat","U-turn","Triple Axel"]},
-    "National Dex Monotype Wallbreaker (Normal)": {"ability":"Scrappy","item":"Lopunnite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Power-Up Punch","Encore","Return","Close Combat"]},
-    "National Dex Doubles Showdown Usage": {"ability":"Scrappy","item":"Lopunnite","nature":"Jolly","teraType":"Normal","evs":{"at":252,"sd":4,"sp":252},"moves":["Fake Out","Close Combat","Quick Attack","Return"]},
-    "Balanced Hackmons Showdown Usage": {"ability":"Tough Claws","item":"Expert Belt","nature":"Jolly","evs":{"hp":252,"at":252,"df":252,"sd":252,"sp":252},"moves":["Population Bomb","Collision Course","Hyper Drill","High Jump Kick"]}
+  "Taxelmatose": {
+    "Mega Revolution Offensive Pivot (Toxic Chain)": {"ability":"Toxic Chain","item":"Heavy-Duty Boots","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Gunk Shot","Knock Off","Triple Axel","U-turn"]},
+    "Mega Revolution Offensive Pivot (Scrappy)": {"ability":"Scrappy","item":"Heavy-Duty Boots","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Gunk Shot","Frustration","Triple Axel","U-turn"]},
+    "Mega Revolution Choice Scarf": {"ability":"Scrappy","item":"Choice Scarf","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Gunk Shot","Frustration","Close Combat","U-turn"]},
   },
   "Mismagius": {
     "NU Choice Scarf": {"ability":"Levitate","item":"Choice Scarf","nature":"Timid","teraType":"Fairy","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Trick","Dazzling Gleam","Destiny Bond"]},
@@ -2255,6 +2261,9 @@ var SETDEX_SV = {
     "Mega Revolution Utility Swords Dance": {"ability":"Piercing Drill","item":"Leftovers","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Earthquake","Stone Axe","Rapid Spin"]},
     "Mega Revolution Offensive Swords Dance": {"ability":"Piercing Drill","item":"Groundium Z","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Earthquake","Rock Slide","Megahorn"]},
   },
+  "Aufcorse": {
+    "Mega Revolution Physically Defensive": {"ability":"Regenerator","item":"Heavy-Duty Boots","nature":"Impish","evs":{"hp":252,"df":252,"sd":4},"moves":["Frustration","Knock Off","Tidy Up","Heal Bell"]}
+  },
   "Timburr": {
     "LC Physical Attacker": {"level":5,"ability":"Iron Fist","item":"Eviolite","nature":"Adamant","teraType":"Steel","evs":{"at":196,"df":156,"sd":156},"moves":["Drain Punch","Knock Off","Mach Punch","Ice Punch"]}
   },
@@ -2887,9 +2896,9 @@ var SETDEX_SV = {
   "Pyroar": {
     "ZU Special Attacker": {"ability":"Unnerve","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Ghost","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Fire Blast","Hyper Voice","Taunt","Will-O-Wisp"]}
   },
-  "Floette-Mega": {
-    "Legends Z-A Special Attacker": {"ability":"Ange","item":"Floettite","nature":"Timid","teraType":"Fairy","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Moonblast","Psychic","Light of Ruin","Calm Mind"]},
-    "Legends Z-A Calm Mind": {"ability":"Ange","item":"Floettite","nature":"Bold","teraType":"Fairy","ivs":{"at":0},"evs":{"hp":248,"df":252,"sd":8},"moves":["Moonblast","Protect","Calm Mind","Calm Mind"]},
+  "Floette-Ange": {
+    "Mega Revolution Choice Specs": {"ability":"Fairy Aura","item":"Choice Specs","nature":"Modest","ivs":{"at":0},"evs":{"hp":136,"sa":252,"sp":120},"moves":["Moonblast","Draining Kiss","Dark Pulse","Trick"]},
+    "Mega Revolution Assault Vest": {"ability":"Fairy Aura","item":"Assault Vest","nature":"Modest","ivs":{"at":0},"evs":{"hp":136,"sa":252,"sp":120},"moves":["Moonblast","Draining Kiss","Dark Pulse","Foul Play"]},
   },
   "Florges": {
     "NU Choice Specs": {"ability":"Flower Veil","item":"Choice Specs","nature":"Modest","teraType":"Ground","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Moonblast","Psychic","Trick","Tera Blast"]},
@@ -4436,6 +4445,10 @@ var SETDEX_SV = {
     "Almost Any Ability Showdown Usage": {"ability":"Rocky Payload","item":"Power Herb","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Earth Power","Meteor Beam","Energy Ball","Power Gem"]},
     "CAP Showdown Usage": {"ability":"Toxic Debris","item":"Focus Sash","nature":"Timid","teraType":"Ghost","evs":{"df":4,"sa":252,"sp":252},"moves":["Stealth Rock","Mortal Spin","Earth Power","Power Gem"]}
   },
+  "Glimmortis": {
+    "Mega Revolution All-Out Attacker": {"ability":"Adaptability","item":"Power Herb","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Meteor Beam","Power Gem","Sludge Wave","Earth Power"]},
+    "Mega Revolution Substitute Rockium Z": {"ability":"Adaptability","item":"Rockium Z","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Meteor Beam","Power Gem","Sludge Wave","Substitute"]},
+  },
   "Houndstone": {
     "UU Sand Sweeper": {"ability":"Sand Rush","item":"Choice Band","nature":"Adamant","teraType":"Ghost","evs":{"at":252,"sd":4,"sp":252},"moves":["Poltergeist","Play Rough","Shadow Sneak","Body Press"]},
     "NU Defensive": {"ability":"Fluffy","item":"Rocky Helmet","nature":"Bold","teraType":"Water","evs":{"hp":252,"df":252,"sd":4},"moves":["Night Shade","Roar","Rest","Sleep Talk"]},
@@ -5501,13 +5514,6 @@ var SETDEX_SV = {
   "Cofagrigus": {
     "National Dex RU Showdown Usage": {"ability":"Mummy","item":"Leftovers","nature":"Sassy","evs":{"hp":248,"sa":8,"sd":252},"moves":["Will-O-Wisp","Hex","Shadow Ball","Trick Room"]}
   },
-  "Ampharos-Mega": {
-    "Legends Z-A Special Attacker": {"ability":"Fluffy","item":"Ampharosite","nature":"Modest","evs":{"hp":248,"sa":252,"sd":8},"moves":["Dragon Pulse","Thunderbolt","Volt Switch","Focus Blast"]},
-	"National Dex RU Showdown Usage": {"ability":"Mold Breaker","item":"Ampharosite","nature":"Quiet","evs":{"hp":248,"sa":252,"sd":8},"moves":["Dragon Pulse","Thunderbolt","Charge Beam","Focus Blast"]}
-  },
-  "Ampharos": {
-    "National Dex RU Showdown Usage": {"ability":"Static","item":"Ampharosite","nature":"Quiet","evs":{"hp":248,"sa":252,"sd":8},"moves":["Dragon Pulse","Thunderbolt","Charge Beam","Focus Blast"]}
-  },
   "Obstagoon": {
     "National Dex RU Showdown Usage": {"ability":"Guts","item":"Flame Orb","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Facade","Knock Off","Close Combat","Parting Shot"]}
   },
@@ -5519,9 +5525,6 @@ var SETDEX_SV = {
   },
   "Slurpuff": {
     "National Dex RU Showdown Usage": {"ability":"Unburden","item":"Sitrus Berry","nature":"Adamant","evs":{"hp":4,"at":252,"sp":252},"moves":["Belly Drum","Drain Punch","Play Rough","Calm Mind"]}
-  },
-  "Audino-Mega": {
-    "Balanced Hackmons Showdown Usage": {"ability":"Ice Scales","item":"Covert Cloak","nature":"Calm","evs":{"hp":252,"df":252,"sa":252,"sd":252,"sp":252},"moves":["Moonblast","Shore Up","Teleport","Topsy-Turvy"]}
   },
   "Metagross-Mega": {
     "Balanced Hackmons Showdown Usage": {"ability":"Steelworker","item":"Covert Cloak","nature":"Adamant","evs":{"hp":252,"at":252,"df":252,"sd":252,"sp":252},"moves":["Sunsteel Strike","Gigaton Hammer","Tidy Up","Bullet Punch"]}
