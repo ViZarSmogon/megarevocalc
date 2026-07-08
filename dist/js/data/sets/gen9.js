@@ -1323,6 +1323,14 @@ var SETDEX_SV = {
     "National Dex RU Offensive": {"ability":"Magic Bounce","item":"Absolite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Knock Off","Pursuit","Close Combat","Sucker Punch"]},
     "National Dex RU Swords Dance": {"ability":"Magic Bounce","item":"Absolite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Knock Off","Close Combat","Sucker Punch"]}
   },
+  "Glalie": {
+    "National Dex RU Showdown Usage": {"ability":"Inner Focus","item":"Glalitite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Spikes","Earthquake","Explosion","Return"]}
+  },
+  "Cryognaw": {
+    "Mega Revolution Choice Band": {"ability":"Strong Jaw","item":"Choice Band","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Ice Fang","Earthquake","Crunch","Ice Shard"]},
+    "Mega Revolution Swords Dance (Strong Jaw)": {"ability":"Strong Jaw","item":"Heavy-Duty Boots","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Ice Fang","Swords Dance","Crunch","Ice Shard"]},
+    "Mega Revolution Swords Dance (Refrigerate)": {"ability":"Refrigerate","item":"Heavy-Duty Boots","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Head Charge","Swords Dance","Earthquake","Ice Shard"]},
+  },
   "Salamence": {
     "UU Offensive": {"ability":"Intimidate","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Fairy","evs":{"df":4,"sa":252,"sp":252},"moves":["Draco Meteor","Hurricane","Earthquake","Roost"]},
     "BSS Reg I Specsmence Returns": {"level":50,"ability":"Intimidate","item":"Choice Specs","nature":"Timid","teraType":"Fairy","evs":{"hp":4,"sa":252,"sp":252},"moves":["Draco Meteor","Hurricane","Flamethrower","Tera Blast"]},
@@ -1725,6 +1733,11 @@ var SETDEX_SV = {
     "Monotype Hail Setter (Ice)": {"ability":"Snow Warning","item":"Icy Rock","nature":"Modest","ivs":{"at":0},"evs":{"hp":40,"sa":252,"sp":216},"moves":["Aurora Veil","Blizzard","Giga Drain","Earth Power"]},
     "ZU Aurora Veil": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Modest","teraType":"Water","ivs":{"at":0},"evs":{"hp":248,"sa":252,"sd":8},"moves":["Aurora Veil","Blizzard","Giga Drain","Earth Power"]}
   },
+  "Snorest": {
+    "Mega Revolution Offensive Tank": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Modest","evs":{"hp":248,"sa":252,"sp":8},"moves":["Leech Seed","Blizzard","Giga Drain","Earth Power"]},
+    "Mega Revolution Swords Dance": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Adamant","evs":{"hp":248,"at":252,"sp":8},"moves":["Swords Dance","Ice Spinner","Ice Shard","Earthquake"]},
+    "Mega Revolution Specially Defensive": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Sassy","ivs":{"sp":0},"evs":{"hp":248,"dd":8,"sd":252},"moves":["Toxic","Blizzard","Flip Turn","Slack Off"]},
+  },
   "Weavile": {
     "OU Boots Attacker": {"ability":"Pressure","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Ice","evs":{"at":252,"sd":4,"sp":252},"moves":["Triple Axel","Knock Off","Ice Shard","Swords Dance"]},
     "OU Choice Band": {"ability":"Pressure","item":"Choice Band","nature":"Jolly","teraType":"Ice","evs":{"at":252,"df":4,"sp":252},"moves":["Triple Axel","Knock Off","Ice Shard","Low Kick"]},
@@ -1847,8 +1860,10 @@ var SETDEX_SV = {
     "ZU Hazard Lead": {"ability":"Cursed Body","item":"Focus Sash","nature":"Timid","teraType":"Ghost","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Spikes","Taunt","Destiny Bond","Icy Wind"]},
     "ZU Utility Spikes": {"ability":"Cursed Body","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Ghost","evs":{"at":252,"sd":4,"sp":252},"moves":["Triple Axel","Poltergeist","Taunt","Spikes"]}
   },
-  "Froslass-Mega": {
-    "Legends Z-A Nasty Plot": {"ability":"Snow Warning","item":"Froslassite","nature":"Timid","teraType":"Ice","evs":{"sa":252,"sd":4,"sp":252},"moves":["Blizzard","Shadow Ball","Thunderbolt","Nasty Plot"]},
+  "Freezeress": {
+    "Mega Revolution Offensive Utility": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Blizzard","Shadow Ball","Will-O-Wisp","Taunt"]},
+    "Mega Revolution Choice Specs": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Blizzard","Shadow Ball","Aura Sphere","Trick"]},
+    "Mega Revolution Screen Setter": {"ability":"Snow Warning","item":"Light Clay","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Blizzard","Aurora Veil","Taunt","Destiny Bond"]},
   },
   "Rotom": {
     "ZU Choice Scarf": {"ability":"Levitate","item":"Choice Scarf","nature":"Timid","teraType":"Electric","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Thunderbolt","Shadow Ball","Volt Switch","Trick"]},
@@ -2236,8 +2251,9 @@ var SETDEX_SV = {
     "National Dex Doubles Showdown Usage": {"ability":"Sand Rush","item":"Focus Sash","nature":"Adamant","teraType":"Ground","evs":{"at":252,"sd":4,"sp":252},"moves":["Iron Head","Earthquake","Protect","Rock Slide"]},
     "Doubles OU Showdown Usage": {"ability":"Sand Rush","item":"Focus Sash","nature":"Adamant","teraType":"Ghost","evs":{"at":252,"sd":4,"sp":252},"moves":["Iron Head","Protect","Earthquake","Swords Dance"]}
   },
-  "Excadrill-Mega": {
-    "Legends Z-A Swords Dance": {"ability":"Mold Breaker","item":"Excadrite","nature":"Jolly","teraType":"Dragon","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Earthquake","Iron Head","Rapid Spin"]},
+  "Wrecksadrill": {
+    "Mega Revolution Utility Swords Dance": {"ability":"Piercing Drill","item":"Leftovers","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Earthquake","Stone Axe","Rapid Spin"]},
+    "Mega Revolution Offensive Swords Dance": {"ability":"Piercing Drill","item":"Groundium Z","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Earthquake","Rock Slide","Megahorn"]},
   },
   "Timburr": {
     "LC Physical Attacker": {"level":5,"ability":"Iron Fist","item":"Eviolite","nature":"Adamant","teraType":"Steel","evs":{"at":196,"df":156,"sd":156},"moves":["Drain Punch","Knock Off","Mach Punch","Ice Punch"]}
@@ -2443,9 +2459,11 @@ var SETDEX_SV = {
     "National Dex RU Substitute Attacker": {"ability":"Flash Fire","item":"Heavy-Duty Boots","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Flamethrower","Hex","Substitute","Will-O-Wisp"]},
     "RU Showdown Usage": {"ability":"Flame Body","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Grass","evs":{"sa":252,"sd":4,"sp":252},"moves":["Shadow Ball","Energy Ball","Flamethrower","Tera Blast"]}
   },
-  "Chandelure-Mega": {
-    "Legends Z-A Special Attacker": {"ability":"Magic Guard","item":"Chandelurite","nature":"Modest","teraType":"Fire","evs":{"sa":252,"sd":4,"sp":252},"moves":["Fire Blast","Shadow Ball","Energy Ball","Will-O-Wisp"]},
-    "Legends Z-A Calm Mind": {"ability":"Magic Guard","item":"Chandelurite","nature":"Timid","teraType":"Fire","evs":{"hp":252,"sd":4,"sp":252},"moves":["Flamethrower","Hex","Will-O-Wisp","Calm Mind"]},
+  "Kandelabrum": {
+    "Mega Revolution Mono-Attacking Calm Mind": {"ability":"Turboblaze","item":"Heavy-Duty Boots","nature":"Bold","evs":{"hp":248,"df":200,"sp":60},"moves":["Fiery Dance","Calm Mind","Moonlight","Will-O-Wisp"]},
+    "Mega Revolution Offensive Calm Mind": {"ability":"Turboblaze","item":"Heavy-Duty Boots","nature":"Modest","evs":{"hp":80,"df":252,"sp":176},"moves":["Fiery Dance","Calm Mind","Moonlight","Infernal Parade"]},
+    "Mega Revolution Choice Specs": {"ability":"Turboblaze","item":"Choice Specs","nature":"Modest","evs":{"sa":252,"sd":4,"sp":252},"moves":["Fire Blast","Shadow Ball","Energy Ball","Trick"]},
+    "Mega Revolution Crit-Me-Not Sweeper": {"ability":"Turboblaze","item":"Leftovers","nature":"Modest","evs":{"hp":248,"sa":84,"sp":176},"moves":["Infernal Parade","Calm Mind","Body Press","Acid Armor"]},
   },
   "Axew": {
     "LC Dragon Dance": {"level":5,"ability":"Unnerve","item":"Eviolite","nature":"Adamant","teraType":"Ground","evs":{"at":220,"df":116,"sp":140},"moves":["Dragon Dance","Outrage","Stomping Tantrum","First Impression"]}
@@ -2490,6 +2508,10 @@ var SETDEX_SV = {
     "PU Choice Band": {"ability":"No Guard","item":"Choice Band","nature":"Adamant","teraType":"Dark","evs":{"at":252,"sd":4,"sp":252},"moves":["Poltergeist","Earthquake","Dynamic Punch","Ice Punch"]},
     "PU Stealth Rock": {"ability":"No Guard","item":"Colbur Berry","nature":"Adamant","teraType":"Dark","evs":{"hp":172,"at":252,"sp":84},"moves":["Stealth Rock","Earthquake","Poltergeist","Ice Punch"]},
     "Monotype Entry Hazard Lead (Ghost)": {"ability":"No Guard","item":"Focus Sash","nature":"Jolly","evs":{"hp":4,"at":252,"sp":252},"moves":["Stealth Rock","Poltergeist","Earthquake","Close Combat"]}
+  },
+  "Goldeliath": {
+    "Mega Revolution Choice Band": {"ability":"Iron Fist","item":"Choice Band","nature":"Adamant","evs":{"at":252,"sd":4,"sp":252},"moves":["Poltergeist","Headlong Rush","Close Combat","Trick"]},
+    "Mega Revolution Stealth Rock Tank": {"ability":"No Guard","item":"Leftovers","nature":"Adamant","evs":{"hp":120,"at":248,"sp":140},"moves":["Poltergeist","Headlong Rush","Dynamic Punch","Stealth Rock"]},
   },
   "Pawniard": {
     "LC Swords Dance": {"level":5,"ability":"Inner Focus","item":"Eviolite","nature":"Jolly","teraType":"Flying","evs":{"at":236,"df":36,"sd":36,"sp":196},"moves":["Swords Dance","Iron Head","Sucker Punch","Tera Blast"]},
@@ -3184,6 +3206,11 @@ var SETDEX_SV = {
   "Crabominable": {
     "ZU Choice Band": {"ability":"Iron Fist","item":"Choice Band","nature":"Adamant","teraType":"Ice","evs":{"hp":252,"at":252,"sd":4},"moves":["Ice Hammer","Close Combat","Earthquake","Knock Off"]},
     "ZU Bulk Up": {"ability":"Iron Fist","item":"Leftovers","nature":"Adamant","teraType":"Water","evs":{"hp":252,"at":252,"sd":4},"moves":["Bulk Up","Ice Hammer","Drain Punch","Earthquake"]}
+  },
+  "Crabarbarian": {
+    "Mega Revolution Choice Band": {"ability":"Iron Fist","item":"Choice Band","nature":"Adamant","evs":{"hp":96,"at":252,"sd":4,"sp":156},"moves":["Ice Hammer","Close Combat","Mach Punch","Knock Off"]},
+    "Mega Revolution All-Out Attacker": {"ability":"Iron Fist","item":"Punching Glove","nature":"Adamant","evs":{"hp":96,"at":252,"sd":4,"sp":156},"moves":["Ice Hammer","Drain Punch","Mach Punch","Thunder Punch"]},
+    "Mega Revolution Bulk Up": {"ability":"Iron Fist","item":"Leftovers","nature":"Careful","evs":{"hp":248,"sd":160,"sp":100},"moves":["Ice Punch","Drain Punch","Mach Punch","Bulk Up"]},
   },
   "Oricorio": {
     "ZU Offensive Quiver Dance": {"ability":"Dancer","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Ground","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Quiver Dance","Hurricane","Revelation Dance","Roost"]},
@@ -5489,12 +5516,6 @@ var SETDEX_SV = {
   },
   "Sigilyph": {
     "National Dex RU Showdown Usage": {"ability":"Magic Guard","item":"Flame Orb","nature":"Timid","evs":{"hp":252,"df":124,"sp":132},"moves":["Calm Mind","Roost","Air Slash","Psycho Shift"]}
-  },
-  "Glalie-Mega": {
-    "National Dex RU Showdown Usage": {"ability":"Refrigerate","item":"Glalitite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Spikes","Earthquake","Explosion","Return"]}
-  },
-  "Glalie": {
-    "National Dex RU Showdown Usage": {"ability":"Inner Focus","item":"Glalitite","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Spikes","Earthquake","Explosion","Return"]}
   },
   "Slurpuff": {
     "National Dex RU Showdown Usage": {"ability":"Unburden","item":"Sitrus Berry","nature":"Adamant","evs":{"hp":4,"at":252,"sp":252},"moves":["Belly Drum","Drain Punch","Play Rough","Calm Mind"]}
