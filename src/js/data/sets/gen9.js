@@ -362,6 +362,8 @@ var SETDEX_SV = {
   },
   "Strechterror": {
     "Mega Revolution Choice Band": {"ability":"Long Reach","item":"Choice Band","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Poltergeist","Mighty Cleave","Knock Off","Trick"]},
+    "Mega Revolution Swords Dance": {"ability":"Long Reach","item":"Ghostium Z","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Poltergeist","Mighty Cleave","Fire Punch","Swords Dance"]},
+    "Mega Revolution Suicide Lead": {"ability":"Long Reach","item":"Focus Sash","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Poltergeist","Mighty Cleave","Taunt","Stealth Rock"]},
   },
   "Electrode-Hisui": {
     "PU Pivot": {"ability":"Aftermath","item":"Heavy-Duty Boots","nature":"Timid","teraType":"Fire","ivs":{"at":0},"evs":{"df":4,"sa":252,"sp":252},"moves":["Volt Switch","Thunderbolt","Leaf Storm","Taunt"]},
@@ -440,7 +442,7 @@ var SETDEX_SV = {
   },
   "Stardem": {
     "Mega Revolution Bulky Spinner": {"ability":"Huge Power","item":"Heavy-Duty Boots","nature":"Impish","evs":{"hp":248,"df":164,"sp":96},"moves":["Waterfall","Flip Turn","Rapid Spin","Recover"]},
-    "Mega Revolution Choice Band": {"ability":"Huge Power","item":"Choice Band","nature":"Adamant","evs":{"hp":252,"sd":4,"sp":252},"moves":["Wave Crash","Flip Turn","Zing Zap","High Jump Kick"]},
+    "Mega Revolution Choice Band": {"ability":"Huge Power","item":"Choice Band","nature":"Adamant","evs":{"hp":252,"sd":4,"sp":252},"moves":["Wave Crash","Flip Turn","Zing Zap","Aqua Jet"]},
   },
   "Scyther": {
     "NU Swords Dance": {"ability":"Technician","item":"Eviolite","nature":"Jolly","teraType":"Electric","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Dual Wingbeat","Close Combat","Trailblaze"]},
@@ -1240,15 +1242,16 @@ var SETDEX_SV = {
     "PU Showdown Usage": {"ability":"Pure Power","item":"Choice Scarf","nature":"Adamant","teraType":"Steel","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Zen Headbutt","Bullet Punch","Thunder Punch"]}
   },
   "Medirvana": {
-    "Mega Revolution Choice Band": {"ability":"Pure Power","item":"Choice Band","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Mach Punch","Close Combat","Zen Headbutt","Thunder Punch"]},
-    "Mega Revolution Bulk Up": {"ability":"Pure Power","item":"Fightinium Z","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Mach Punch","Close Combat","Zen Headbutt","Bulk Up"]},
+    "Mega Revolution Choice Band": {"ability":"Pure Power","item":"Choice Band","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Trick","Close Combat","Zen Headbutt","Thunder Punch"]},
+    "Mega Revolution Bulk Up": {"ability":"Pure Power","item":"Fightinium Z","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Thunder Punch","Close Combat","Zen Headbutt","Bulk Up"]},
   },
   "Manectric": {
     "National Dex RU Offensive Pivot": {"ability":"Lightning Rod","item":"Manectite","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Volt Switch","Thunderbolt","Overheat","Hidden Power Ice"]},
     "National Dex UU Showdown Usage": {"ability":"Static","item":"Manectite","nature":"Timid","evs":{"sa":252,"sd":4,"sp":252},"moves":["Volt Switch","Thunderbolt","Hidden Power Ice","Overheat"]}
   },
-  "Manectric-Mega": {
-    "Mega Revolution Offensive Pivot": {"ability":"Intimidate","item":"Heavy-Duty Boots","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Volt Switch","Thunderbolt","Flamethrower","Hidden Power Ice"]},
+  "Clapback": {
+    "Mega Revolution Offensive Pivot": {"ability":"Intimidate","item":"Heavy-Duty Boots","nature":"Timid","ivs":{"at":0},"evs":{"sa":252,"sd":4,"sp":252},"moves":["Volt Switch","Thunderbolt","Flamethrower","Leaf Storm"]},
+    "Mega Revolution Bulky Pivot": {"ability":"Intimidate","item":"Heavy-Duty Boots","nature":"Timid","ivs":{"at":0},"evs":{"hp":248,"sa":8,"sp":252},"moves":["Volt Switch","Leech Seed","Flamethrower","Giga Drain"]},
   },
   "Volbeat": {
     "ZU Defensive Pivot": {"ability":"Prankster","item":"Heavy-Duty Boots","nature":"Sassy","teraType":"Dragon","ivs":{"sp":0},"evs":{"hp":252,"df":4,"sd":252},"moves":["Encore","Thunder Wave","Roost","U-turn"]}
@@ -1750,7 +1753,8 @@ var SETDEX_SV = {
   "Snorest": {
     "Mega Revolution Offensive Tank": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Modest","evs":{"hp":248,"sa":252,"sp":8},"moves":["Leech Seed","Blizzard","Giga Drain","Earth Power"]},
     "Mega Revolution Swords Dance": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Adamant","evs":{"hp":248,"at":252,"sp":8},"moves":["Swords Dance","Ice Spinner","Ice Shard","Earthquake"]},
-    "Mega Revolution Specially Defensive": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Sassy","ivs":{"sp":0},"evs":{"hp":248,"dd":8,"sd":252},"moves":["Toxic","Blizzard","Flip Turn","Slack Off"]},
+    "Mega Revolution Calm Mind": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Bold","evs":{"hp":248,"df":252,"sd":8},"moves":["Giga Drain","Earth Power","Ice Beam","Calm Mind"]},
+    "Mega Revolution Specially Defensive": {"ability":"Snow Warning","item":"Heavy-Duty Boots","nature":"Sassy","ivs":{"sp":0},"evs":{"hp":248,"df":8,"sd":252},"moves":["Toxic","Blizzard","Flip Turn","Slack Off"]},
   },
   "Weavile": {
     "OU Boots Attacker": {"ability":"Pressure","item":"Heavy-Duty Boots","nature":"Jolly","teraType":"Ice","evs":{"at":252,"sd":4,"sp":252},"moves":["Triple Axel","Knock Off","Ice Shard","Swords Dance"]},
@@ -2266,10 +2270,10 @@ var SETDEX_SV = {
   },
   "Wrecksadrill": {
     "Mega Revolution Utility Swords Dance": {"ability":"Piercing Drill","item":"Leftovers","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Earthquake","Stone Axe","Rapid Spin"]},
-    "Mega Revolution Offensive Swords Dance": {"ability":"Piercing Drill","item":"Groundium Z","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Earthquake","Rock Slide","Megahorn"]},
+    "Mega Revolution Offensive Swords Dance": {"ability":"Piercing Drill","item":"Groundium Z","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Earthquake","Stone Edge","Megahorn"]},
   },
   "Aufcorse": {
-    "Mega Revolution Physically Defensive": {"ability":"Regenerator","item":"Heavy-Duty Boots","nature":"Impish","evs":{"hp":252,"df":252,"sd":4},"moves":["Frustration","Knock Off","Tidy Up","Heal Bell"]}
+    "Mega Revolution Physically Defensive": {"ability":"Regenerator","item":"Heavy-Duty Boots","nature":"Impish","evs":{"hp":252,"df":252,"sd":4},"moves":["Spirit Break","Knock Off","Tidy Up","Heal Bell"]}
   },
   "Timburr": {
     "LC Physical Attacker": {"level":5,"ability":"Iron Fist","item":"Eviolite","nature":"Adamant","teraType":"Steel","evs":{"at":196,"df":156,"sd":156},"moves":["Drain Punch","Knock Off","Mach Punch","Ice Punch"]}

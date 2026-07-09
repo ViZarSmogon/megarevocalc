@@ -10118,7 +10118,7 @@ var MegaRev_PATCH = {
     },
     Dracandescend: {
         types: ['Fire', 'Dragon'],
-        bs: { hp: 76, at: 117, df: 78, sa: 123, sd: 70, sp: 100 },
+        bs: { hp: 78, at: 117, df: 78, sa: 123, sd: 70, sp: 100 },
         weightkg: 110.5,
         abilities: { 0: 'Tough Claws' }
     },
@@ -10141,8 +10141,8 @@ var MegaRev_PATCH = {
         abilities: { 0: 'Adaptability' }
     },
     Pidgeaether: {
-        types: ['Flying'],
-        bs: { hp: 84, at: 95, df: 80, sa: 100, sd: 80, sp: 110 },
+        types: ['Normal', 'Flying'],
+        bs: { hp: 94, at: 109, df: 80, sa: 90, sd: 80, sp: 106 },
         weightkg: 50.5,
         abilities: { 0: 'No Guard' }
     },
@@ -10190,7 +10190,7 @@ var MegaRev_PATCH = {
     },
     Kandelabrum: {
         types: ['Ghost', 'Fire'],
-        bs: { hp: 90, at: 55, df: 110, sa: 150, sd: 90, sp: 60 },
+        bs: { hp: 80, at: 55, df: 110, sa: 150, sd: 90, sp: 60 },
         weightkg: 69.6,
         abilities: { 0: 'Infiltrator' }
     },
@@ -10245,7 +10245,7 @@ var MegaRev_PATCH = {
     },
     Glimmortis: {
         types: ['Rock', 'Poison'],
-        bs: { hp: 93, at: 55, df: 90, sa: 135, sd: 81, sp: 101 },
+        bs: { hp: 93, at: 55, df: 90, sa: 130, sd: 81, sp: 91 },
         weightkg: 77,
         abilities: { 0: 'Adaptability' }
     },
@@ -10263,7 +10263,7 @@ var MegaRev_PATCH = {
     },
     Medirvana: {
         types: ['Fighting', 'Psychic'],
-        bs: { hp: 90, at: 70, df: 75, sa: 70, sd: 85, sp: 90 },
+        bs: { hp: 90, at: 70, df: 75, sa: 70, sd: 85, sp: 85 },
         weightkg: 31.5,
         abilities: { 0: 'Pure Power' }
     },
@@ -10274,8 +10274,8 @@ var MegaRev_PATCH = {
         abilities: { 0: 'Competitive' }
     },
     Clapback: {
-        types: ['Electric'],
-        bs: { hp: 75, at: 75, df: 75, sa: 120, sd: 75, sp: 120 },
+        types: ['Electric', 'Grass'],
+        bs: { hp: 90, at: 75, df: 75, sa: 110, sd: 75, sp: 120 },
         weightkg: 44,
         abilities: { 0: 'Intimidate' }
     },
@@ -10326,7 +10326,7 @@ var MegaRev_PATCH = {
     },
     Valianoble: {
         types: ['Psychic', 'Fighting'],
-        bs: { hp: 83, at: 125, df: 80, sa: 65, sd: 120, sp: 85 },
+        bs: { hp: 73, at: 125, df: 80, sa: 65, sd: 120, sp: 95 },
         weightkg: 56.4,
         abilities: { 0: 'Sharpness' }
     }
