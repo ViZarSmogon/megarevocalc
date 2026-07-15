@@ -810,11 +810,9 @@ var SETDEX_SV = {
     "National Dex RU Curse": {"ability":"Sturdy","item":"Steelixite","nature":"Brave","ivs":{"sp":0},"evs":{"hp":252,"at":200,"df":8,"sd":48},"moves":["Stealth Rock","Gyro Ball","Earthquake","Curse"]},
     "National Dex Monotype Curse (Ground)": {"ability":"Sturdy","item":"Steelixite","nature":"Impish","evs":{"hp":252,"at":4,"sd":252},"moves":["Curse","Heavy Slam","Rest","Sleep Talk"]}
   },
-  "Steelix-Mega": {
-    "National Dex RU Tank": {"ability":"Sand Force","item":"Steelixite","nature":"Sassy","ivs":{"sp":0},"evs":{"hp":252,"at":32,"df":8,"sd":216},"moves":["Stealth Rock","Earthquake","Gyro Ball","Toxic"]},
-    "National Dex RU Curse": {"ability":"Sand Force","item":"Steelixite","nature":"Brave","ivs":{"sp":0},"evs":{"hp":252,"at":200,"df":8,"sd":48},"moves":["Stealth Rock","Gyro Ball","Earthquake","Curse"]},
-    "National Dex Monotype Curse (Ground)": {"ability":"Sand Force","item":"Steelixite","nature":"Impish","evs":{"hp":252,"at":4,"sd":252},"moves":["Curse","Heavy Slam","Rest","Sleep Talk"]},
-    "Balanced Hackmons Showdown Usage": {"ability":"Ice Scales","item":"Leftovers","nature":"Careful","evs":{"hp":252,"at":252,"df":252,"sd":252,"sp":252},"moves":["Salt Cure","Body Press","Cotton Guard","Baneful Bunker"]}
+  "Steelix-Crystalshards": {
+    "Mega Revolution Defensive": {"ability":"Sheer Force","item":"Lefovers","nature":"Careful","evs":{"hp":252,"sd":120,"sp":136},"moves":["Stealth Rock","Earthquake","Iron Head","Stealth Rock"]},
+    "Mega Revolution Coil": {"ability":"Sturdy","item":"Lefovers","nature":"Impish","evs":{"hp":252,"sd":120,"sp":136},"moves":["Shore Up","Diamond Storm","Body Press","Coil"]},
   },
   "Snubbull": {
     "LC Physically Defensive": {"level":5,"ability":"Intimidate","item":"Eviolite","nature":"Adamant","teraType":"Steel","evs":{"hp":36,"at":116,"df":196,"sd":116,"sp":36},"moves":["Play Rough","Psychic Fangs","Thunder Wave","Thief"]}
@@ -1226,11 +1224,10 @@ var SETDEX_SV = {
     "National Dex UU Showdown Usage": {"ability":"Sturdy","item":"Aggronite","nature":"Careful","evs":{"hp":252,"df":4,"sd":252},"moves":["Heavy Slam","Earthquake","Body Press","Stealth Rock"]},
     "National Dex Doubles Showdown Usage": {"ability":"Rock Head","item":"Leftovers","nature":"Careful","teraType":"Fighting","evs":{"hp":252,"df":16,"sd":224,"sp":16},"moves":["Heavy Slam","Body Press","Head Smash","Iron Defense"]}
   },
-  "Aggron-Mega": {
-    "National Dex RU Tank": {"ability":"Filter","item":"Aggronite","nature":"Careful","evs":{"hp":252,"df":4,"sd":252},"moves":["Stealth Rock","Heavy Slam","Body Press","Toxic"]},
-    "National Dex RU Curse": {"ability":"Filter","item":"Aggronite","nature":"Careful","evs":{"hp":252,"df":4,"sd":252},"moves":["Curse","Heavy Slam","Rest","Sleep Talk"]},
-    "National Dex UU Showdown Usage": {"ability":"Filter","item":"Aggronite","nature":"Careful","evs":{"hp":252,"df":4,"sd":252},"moves":["Heavy Slam","Earthquake","Body Press","Stealth Rock"]},
-    "Balanced Hackmons Showdown Usage": {"ability":"Fur Coat","item":"Covert Cloak","nature":"Impish","evs":{"hp":252,"at":252,"df":252,"sd":252,"sp":252},"moves":["Body Press","Strength Sap","Cotton Guard","Gigaton Hammer"]}
+  "Aggron-Dreadnought": {
+    "Mega Revolution Tank": {"ability":"Filter","item":"Leftovers","nature":"Careful","evs":{"hp":252,"df":4,"sd":252},"moves":["Stealth Rock","Heavy Slam","Body Press","Flip Turn"]},
+    "Mega Revolution IronPress": {"ability":"Filter","item":"Leftovers","nature":"Careful","evs":{"hp":252,"df":4,"sd":252},"moves":["Iron Defense","Body Press","Waterfall","Rest"]},
+    "Mega Revolution Choice Band": {"ability":"Rock Head","item":"Choice Band","nature":"Adamant","evs":{"at":252,"df":4,"sp":252},"moves":["Heavy Slam","Supercell Slam","Wave Crash","Flip Turn"]},
   },
   "Meditite": {
     "NFE Choice Item": {"ability":"Pure Power","item":"Choice Band","nature":"Adamant","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Zen Headbutt","Ice Punch","Trick"]}
@@ -1715,6 +1712,9 @@ var SETDEX_SV = {
     "National Dex Doubles Showdown Usage": {"ability":"Steadfast","item":"Lucarionite","nature":"Jolly","teraType":"Fighting","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Meteor Mash","Bullet Punch","Protect"]},
     "National Dex RU Showdown Usage": {"ability":"Inner Focus","item":"Life Orb","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Extreme Speed","Swords Dance","Meteor Mash"]},
     "National Dex Ubers Showdown Usage": {"ability":"Steadfast","item":"Lucarionite","nature":"Jolly","teraType":"Fighting","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Meteor Mash","Close Combat","Bullet Punch"]}
+  },
+  "Auranegade": {
+    "Mega Revolution Swords Dance": {"ability":"Adaptability","item":"Life Orb","nature":"Jolly","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Meteor Mash","Close Combat","Knock Off"]}
   },
   "Hippopotas": {
     "LC Sand Setter": {"level":5,"ability":"Sand Stream","item":"Eviolite","nature":"Adamant","teraType":"Ground","evs":{"at":100,"df":212,"sd":180},"moves":["Slack Off","Stealth Rock","Earthquake","Ice Fang"]},
@@ -5495,11 +5495,6 @@ var SETDEX_SV = {
   },
   "Noctowl": {
     "ZU Showdown Usage": {"ability":"Tinted Lens","item":"Leftovers","nature":"Bold","teraType":"Fairy","evs":{"hp":252,"df":252,"sp":4},"moves":["Air Slash","Roost","Calm Mind","Tera Blast"]}
-  },
-  "Lucario-Mega": {
-    "National Dex Doubles Showdown Usage": {"ability":"Adaptability","item":"Lucarionite","nature":"Jolly","teraType":"Fighting","evs":{"at":252,"sd":4,"sp":252},"moves":["Close Combat","Meteor Mash","Bullet Punch","Protect"]},
-    "Balanced Hackmons Showdown Usage": {"ability":"Magic Guard","item":"Life Orb","nature":"Hasty","evs":{"hp":252,"at":252,"df":252,"sa":252,"sd":252,"sp":252},"moves":["Gigaton Hammer","Steel Beam","Sunsteel Strike","High Jump Kick"]},
-    "National Dex Ubers Showdown Usage": {"ability":"Adaptability","item":"Lucarionite","nature":"Jolly","teraType":"Fighting","evs":{"at":252,"sd":4,"sp":252},"moves":["Swords Dance","Meteor Mash","Close Combat","Bullet Punch"]}
   },
   "Blaziken-Mega": {
     "National Dex Doubles Showdown Usage": {"ability":"Speed Boost","item":"Blazikenite","nature":"Adamant","teraType":"Fire","evs":{"at":252,"sd":4,"sp":252},"moves":["Flare Blitz","Close Combat","Protect","Rock Slide"]},

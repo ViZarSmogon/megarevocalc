@@ -10110,6 +10110,9 @@ var MegaRev_PATCH = {
     Slowbro: { otherFormes: ['Slowbro-Galar', 'Slowbro-Sheltered'] },
     Gardevoir: { nfe: true },
     Gallade: { nfe: true },
+    Steelix: { otherFormes: ['Steelix-Crystalshards'] },
+    Aggron: { otherFormes: ['Aggron-Dreadnought'] },
+    Lucario: { nfe: true },
     Junglosaur: {
         types: ['Grass', 'Poison'],
         bs: { hp: 100, at: 102, df: 98, sa: 122, sd: 113, sp: 40 },
@@ -10329,6 +10332,26 @@ var MegaRev_PATCH = {
         bs: { hp: 73, at: 125, df: 80, sa: 65, sd: 120, sp: 95 },
         weightkg: 56.4,
         abilities: { 0: 'Sharpness' }
+    },
+    'Steelix-Crystalshards': {
+        types: ['Steel', 'Ground'],
+        bs: { hp: 90, at: 120, df: 135, sa: 45, sd: 70, sp: 90 },
+        weightkg: 740,
+        abilities: { 0: 'Sheer Force' },
+        baseSpecies: 'Steelix'
+    },
+    'Aggron-Dreadnought': {
+        types: ['Steel'],
+        bs: { hp: 90, at: 120, df: 160, sa: 50, sd: 90, sp: 60 },
+        weightkg: 395,
+        abilities: { 0: 'Filter' },
+        baseSpecies: 'Aggron'
+    },
+    Auranegade: {
+        types: ['Fighting', 'Steel'],
+        bs: { hp: 75, at: 125, df: 85, sa: 115, sd: 75, sp: 95 },
+        weightkg: 57.5,
+        abilities: { 0: 'Adaptability' }
     }
 };
 var SV = (0, util_1.extend)(true, {}, SS, SV_PATCH, PLA_PATCH, MegaRev_PATCH);
