@@ -10100,6 +10100,9 @@ const MegaRev_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   Steelix: {otherFormes: ['Steelix-Crystalshards']},
   Aggron: {otherFormes: ['Aggron-Dreadnought']},
   Lucario: {nfe: true},
+  Chesnaught: {nfe: true},
+  Delphox: {nfe: true},
+  Greninja: {nfe: true},
   
   Junglosaur: {
     types: ['Grass', 'Poison'],
@@ -10340,6 +10343,24 @@ const MegaRev_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     bs: {hp: 75, at: 125, df: 85, sa: 115, sd: 75, sp: 95},
     weightkg: 57.5,
     abilities: {0: 'Adaptability'},
+  },
+  Marronaut: {
+    types: ['Grass', 'Fighting'],
+    bs: {hp: 98, at: 127, df: 142, sa: 74, sd: 85, sp: 44},
+    weightkg: 90,
+    abilities: {0: 'Bulletproof'},
+  },
+  Elphablast: {
+    types: ['Fire', 'Fairy'],
+    bs: {hp: 81, at: 69, df: 81, sa: 120, sd: 111, sp: 108},
+    weightkg: 57.5,
+    abilities: {0: 'Levitate'},
+  },
+  Grenegade: {
+    types: ['Water', 'Dark'],
+    bs: {hp: 72, at: 115, df: 72, sa: 118, sd: 71, sp: 122},
+    weightkg: 57.5,
+    abilities: {0: 'Mold Breaker'},
   },
 };
 
